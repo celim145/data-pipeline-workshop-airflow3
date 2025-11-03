@@ -168,14 +168,37 @@ Implemente uma tarefa adicional que:
 - PostgreSQL Hooks para conexão com banco
 - Logs do Airflow para debugging
 
-## ⏰ Tempo Estimado
-- **Total:** 50 minutos
-- **Análise:** 10 min
-- **Implementação:** 30 min  
-- **Execução:** 10 min
+## 📤 Forma de Entrega
+
+### Instruções para Entrega
+1. **Fork do Repositório:**
+   - Faça um fork deste repositório para sua conta GitHub
+
+2. **Estrutura da Solução:**
+   - Crie uma pasta com seu **RA** na raiz do projeto
+   - Exemplo: se seu RA é `123456`, crie a pasta `123456/`
+   - Coloque todos os arquivos da sua solução dentro desta pasta
+
+3. **Arquivos Obrigatórios:**
+   - `pipeline_produtos_vendas.py` (sua DAG)
+   - `README.md` (documentação da sua solução)
+   - Arquivos CSV de dados (se modificados)
+
+4. **Pull Request:**
+   - Título: `[RA] - [SEU_NOME_COMPLETO] - Exercício Final`
+   - Exemplo: `[123456] - João Silva Santos - Exercício Final`
+   - Descrição: breve resumo da sua implementação
+
+### Estrutura Esperada
+```
+data-pipeline-workshop-airflow3/
+├── [SEU_RA]/
+│   ├── pipeline_produtos_vendas.py
+│   ├── README.md
+│   └── dados/ (se necessário)
+└── ...
+```
 
 ---
-
-**Boa sorte! 🚀**
 
 *Lembre-se: O objetivo é aplicar os conceitos de pipeline de dados de forma prática. Foque na qualidade da implementação e na clareza do código.*
